@@ -151,6 +151,22 @@ button {
 		border-color: $text-black;
 	}
 }
+.button.button-border.blue {
+	background: transparent;
+	border: 2px solid $blue;
+	color: $white;
+	background: $blue;
+	&:hover {
+		background: $white;
+		color: $blue;
+		border-color: $blue;
+	}
+	&:focus {
+		background: $white;
+		color: $blue;
+		border-color: $blue;
+	}
+}
 .button.icon {
 	i {
 		margin-left: 10px;
