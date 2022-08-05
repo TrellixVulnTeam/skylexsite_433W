@@ -303,7 +303,7 @@
                         scrollFlagMobile = true,
                         logoHeight = $('.menu-logo').outerHeight();
                         if(!$('#header').hasClass('logo-center')){  
-                            $('.mega-menu .menu-list-items').height(logoHeight);
+                            $('.mega-menu .menu-list-items').height(70);
                         }
                     // media query
                     //if (!($this.find(dropDown).is(':hidden'))) {
@@ -330,7 +330,7 @@
 												$(this).addClass(desktopTopFixed);
 												if(!$('#header').hasClass('logo-center')){
 													 var logoHeight2 = $('.menu-logo img').outerHeight(true);
-													 $('.mega-menu .menu-list-items').height(logoHeight2);
+													 $('.mega-menu .menu-list-items').height(70);
 												 }
 												$(this).fadeIn(200);
 											});
@@ -343,7 +343,7 @@
 											// fade out
 											$this.fadeOut(200, function () {
 											   if(!$('#header').hasClass('logo-center')){  
-													$('.mega-menu .menu-list-items').height(logoHeight);
+													$('.mega-menu .menu-list-items').height(70);
 												}
 												// add class and fade in
 												$(this).removeClass(desktopTopFixed).fadeIn(200);

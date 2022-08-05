@@ -458,7 +458,7 @@
 .ti-map:before {
 	content: "\e690";
 }
-.ti-map-alt:before {
+ti-map-alt:before {
 	content: "\e691";
 }
 .ti-loop:before {

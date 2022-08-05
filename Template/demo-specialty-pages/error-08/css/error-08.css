@@ -6,6 +6,6 @@ Design and Developed by: potenzaglobalsolutions.com
 NOTE: This file contains the styling for the band Template. You can edit/add anything in this file!
 */
  
- .error-08 { background: #f3f3f3; }
+ .error-08 { background: #fff; }
  .error-08 h2 { font-size: 34px; line-height: 34px; font-weight: bold; }
- .error-08 .widget-search input { background: #317CC0; }
+ .error-08 .widget-search input { background: #e9d8d2; }

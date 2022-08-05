@@ -172,11 +172,11 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 
 }
 
-@media (min-width: 1200px) {
-.container { max-width: 1170px; }
+@media (min-width: 1320px) {
+.container { max-width: 1320px; }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1320px) {
 .login-2-social li {margin: 0 3px;}
 h2 {font-size: 28px;}
 h4 {font-size: 18px;}
@@ -631,7 +631,7 @@ header.one-page { position: relative; background: #323232; }
  .mega-menu .menu-links { padding: 10px; }
 
 /*sticky header */
-.header .mega-menu.mobileTopFixed .menu-list-items { background: #323232; }
+.header .mega-menu.mobileTopFixed .menu-list-items { background: #fff; }
 .header.light .mega-menu.mobileTopFixed .menu-list-items { background: #ffffff;  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1); }
 .header.fancy .mega-menu.mobileTopFixed section.menu-list-items { padding: 0 10px;  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);  }
 .logo-center .mega-menu.desktopTopFixed .menu-list-items .menu-links > li > a { padding: 0px 8px; }

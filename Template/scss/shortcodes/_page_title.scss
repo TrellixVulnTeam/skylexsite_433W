@@ -40,11 +40,11 @@
 ul.page-breadcrumb {
 	li {
 		span {
-			color: $white;
+			color: $black;
 			font-size: 14px;
 			text-transform: capitalize;
 		}
-		color: $white;
+		color: $black;
 		display: inline-block;
 		list-style: none;
 		i {
@@ -52,7 +52,7 @@ ul.page-breadcrumb {
 			padding: 0 7px;
 		}
 		a {
-			color: $white;
+			color: $black;
 			font-size: 14px;
 			text-transform: capitalize;
 			&:hover {

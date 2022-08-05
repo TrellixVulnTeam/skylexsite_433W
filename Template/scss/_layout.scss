@@ -629,6 +629,14 @@
     img {
       width: 100%;
     }
+    .about-img{
+      width: 100px;
+      height: 100px;
+    }
+    .team-img{
+      width: 260px;
+      height: 315px;
+    }
   }
 }
 .masonry {
@@ -4182,10 +4190,10 @@ img.logo-small {
   li {
     font-size: $fs-14;
     margin-bottom: 15px;
-    color: rgba(255,255,255,0.5);
+    color: $black;
     list-style: none;
     a {
-      color: rgba(255,255,255,0.5);
+      color: $blue;
     }
   }
   i {
@@ -4233,7 +4241,7 @@ img.logo-small {
         margin-bottom: 0;
       }
       a {
-        color: rgba(255,255,255,0.5);
+        color: rgb(0, 0, 0);
         font-size: $fs-14;
         vertical-align: top;
         display: block;
@@ -5253,8 +5261,8 @@ img#logo-footer {
 }
 .login-box-02 {
   padding: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   height: 100%;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
 }
 .login-box-02.white-overlay {
   background: rgba(255, 255, 255, 0.5);

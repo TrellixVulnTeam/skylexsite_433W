@@ -9,7 +9,7 @@ NOTE: This file contains Action Box CSS.
 /*************************************
         action-box 
 **************************************/
-.action-box { position: relative; }
+.action-box { position: fixed; bottom: 0 }
 .action-box a.button { position: absolute; right: 0; top: 50%; margin-top: -20px; }
 .action-box strong { font-weight: bold; }
 .action-box p { margin-bottom: 0; }
