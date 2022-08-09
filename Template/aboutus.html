@@ -30,7 +30,7 @@
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 
-    <link rel="stylesheet" type="text/css" href="css/skins/skin-water-blue.css" data-style="styles"/>
+    <link rel="stylesheet" type="text/css" href="css/skins/skin-blue.css" data-style="styles"/>
 
 </head>
 
@@ -60,7 +60,7 @@
                                 <!-- menu logo -->
                                 <ul class="menu-logo">
                                     <li>
-                                        <a href="index-01.html"><img id="logo_img" src="images/logo.png" alt="logo"> </a>
+                                        <a href="index.html"><img id="logo_img" src="images/logo.png" alt="logo"> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -68,26 +68,77 @@
                                 <!-- menu links -->
                                 <div class="menu-bar">
                                     <ul class="menu-links">
-                                        <li>
-                                            <a href="#">Услуги</a>
+                                        <li><a href="javascript:void(0)">Услуги<i class="fa fa-angle-down fa-indicator"></i></a>
+                                            <!-- drop down multilevel  -->
+                                            <ul class="drop-down-multilevel">
+                                                <li><a href="javascript:void(0)">Услуги<i class="ti-plus fa-indicator"></i> </a>
+
+                                                    <!-- drop down second level -->
+                                                    <ul class="drop-down-multilevel">
+                                                        <li><a href="blog-classic-left-sidebar.html">left sidebar</a></li>
+                                                        <li><a href="blog-classic-right-sidebar.html">right sidebar</a></li>
+                                                        <li><a href="blog-classic-fullwidth.html">fullwidth</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="javascript:void(0)">grid <i class="ti-plus fa-indicator"></i> </a>
+                                                    <!-- drop down second level -->
+                                                    <ul class="drop-down-multilevel">
+                                                        <li><a href="blog-grid-2-column.html"> 2 column </a> </li>
+                                                        <li><a href="blog-grid-3-column.html"> 3 column </a> </li>
+                                                        <li><a href="blog-grid-2-column-left-sidebar.html">left sidebar</a></li>
+                                                        <li><a href="blog-grid-2-column-right-sidebar.html">right sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="javascript:void(0)">Masonry  <i class="ti-plus fa-indicator"></i> </a>
+                                                    <!-- drop down second level -->
+                                                    <ul class="drop-down-multilevel">
+                                                        <li><a href="blog-masonry-2-columns.html"> 2 column </a> </li>
+                                                        <li><a href="blog-masonry-3-columns.html"> 3 column </a> </li>
+                                                        <li><a href="blog-masonry-2-columns-left-sidebar.html">left sidebar</a></li>
+                                                        <li><a href="blog-masonry-2-columns-right-sidebar.html">right sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">timeline  <i class="ti-plus fa-indicator"></i></a>
+                                                    <!-- drop down second level -->
+                                                    <ul class="drop-down-multilevel">
+                                                        <li><a href="blog-timeline.html">fullwidth</a></li>
+                                                        <li><a href="blog-timeline-left-sidebar.html">left sidebar</a></li>
+                                                        <li><a href="blog-timeline-right-sidebar.html">right sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">single post  <i class="ti-plus fa-indicator"></i></a>
+                                                    <!-- drop down second level -->
+                                                    <ul class="drop-down-multilevel">
+                                                        <li><a href="blog-single-audio-post.html"> audio post  </a> </li>
+                                                        <li><a href="blog-single-grid-post.html"> grid post  </a> </li>
+                                                        <li><a href="blog-single-HTML5-video-post.html"> HTML5 video post  </a> </li>
+                                                        <li><a href="blog-single-image-post.html"> image post  </a> </li>
+                                                        <li><a href="blog-single-slider-post.html"> slider post  </a> </li>
+                                                        <li><a href="blog-single-soundcloud.html"> soundcloud  </a> </li>
+                                                        <li><a href="blog-single-vimeo-post.html"> vimeo post  </a> </li>
+                                                        <li><a href="blog-single-without-Image-post.html"> without Image post  </a> </li>
+                                                        <li><a href="blog-single-youtube-post.html"> youtube post  </a> </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li>
-                                            <a href="/">Цены</a>
+                                            <a href="prices.html">Цены</a>
                                         </li>
                                         <li>
-                                            <a href="/">Портфолио</a>
+                                            <a href="portfolio.html">Портфолио</a>
                                         </li>
                                         <li>
-                                            <a href="/">О нас</a>
+                                            <a href="aboutus.html">О нас</a>
                                         </li>
                                         <li>
-                                            <a href="/">Блог</a>
+                                            <a href="blog.html">Блог</a>
                                         </li>
                                         <li>
-                                            <a href="/">Вакансии</a>
+                                            <a href="vacancies.html">Вакансии</a>
                                         </li>
                                         <li>
-                                            <a href="/">Контакты</a>
+                                            <a href="contact.html">Контакты</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -130,7 +181,7 @@
                     </div>
                     <div class="blog-entry mb-50">
                         <div class="entry-image clearfix">
-                            <img class="img-fluid" src="images/blog/01.jpg" alt="">
+                            <img class="img-fluid" src="images/team/allteam.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -407,12 +458,12 @@
 
 
     <!-- footer -->
-    <footer class="footer page-section-pt white-bg pb-80">
+    <footer class="footer page-section-pt black-bg pb-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-sm-6 sm-mb-30">
                     <div class="footer-useful-link footer-hedding">
-                        <h6 class="text-black mb-30 mt-10 text-uppercase">Услуги</h6>
+                        <h6 class="text-white mb-30 mt-10 text-uppercase">Услуги</h6>
                         <ul>
                             <li><a href="#">Интернет магазины </a></li>
                             <li><a href="#">Разработка CRM</a></li>
@@ -423,7 +474,7 @@
                 </div>
                 <div class="col-lg-2 col-sm-6 sm-mb-30">
                     <div class="footer-useful-link footer-hedding">
-                        <h6 class="text-black mb-30 mt-10 text-uppercase">Компания</h6>
+                        <h6 class="text-white mb-30 mt-10 text-uppercase">Компания</h6>
                         <ul>
                             <li><a href="#">О нас</a></li>
                             <li><a href="#">Контакты</a></li>
@@ -434,12 +485,10 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-sm-6 text-center">
-                    <h6 class="text-black mb-20 mt-10">Заинтересованы в создании проекта?</h6>
+                    <h6 class="text-white mb-20 mt-10">Заинтересованы в создании проекта?</h6>
                     <button type="submit" class="btn btn-primary btn-lg" name="submitbtn"><span>Отправить заявку</span></button>
-                    <ul class="menu-logo m-4">
-                        <li>
-                            <a href="index-01.html"><img src="images/logo.png" alt="logo"> </a>
-                        </li>
+                    <ul class="list-group m-4">
+                        <a href="index-01.html"><img src="images/logo.png" alt="logo"> </a>
                     </ul>
                     <p class="m-3">© 2022 - Все права защищены<span id="copyright"></span> <a href="#"> SKYLEX</a>™
                     </p>
@@ -454,7 +503,7 @@
                             <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i> </a></li>
                         </ul>
                     </div>
-                    <h6 class="text-black mb-10 mt-10">Контакты</h6>
+                    <h6 class="text-white mb-10 mt-10">Контакты</h6>
                     <ul class="addresss-info">
                         <li><a href="tel:+380939288894"> <span>(093) 92-888-94</span> </a></li>
                         <li>alexander.gansky@gmail.com</li>

@@ -5927,7 +5927,7 @@ section:nth-child(odd) .title-effect.dark::before {
       Header
 *************************/
 .default {
-  background: #ffffff;
+  background: #323232;
   z-index: 9999;
   position: absolute;
   width: 100%; }
@@ -5959,7 +5959,7 @@ section:nth-child(odd) .title-effect.dark::before {
   flex-direction: column; }
   .topbar-call a {
     text-align: right;
-    color: #323232;
+    color: #ffffff;
     line-height: 19px; }
   .topbar-call a:first-child {
     padding-top: 14px; }
@@ -6305,7 +6305,7 @@ section:nth-child(odd) .title-effect.dark::before {
       .header.light .topbar ul li a {
         color: #323232; }
   .header.light .mega-menu .menu-links > li > a {
-    color: #323232; }
+    color: #ffffff; }
     .header.light .mega-menu .menu-links > li > a:hover {
       color: #84ba3f; }
   .header.light .mega-menu .menu-links > li.active > a {
@@ -6406,7 +6406,7 @@ section:nth-child(odd) .title-effect.dark::before {
     padding: 0px 25px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1); }
   .header.fancy .mega-menu .menu-links > li > a {
-    color: #323232;
+    color: #ffffff;
     line-height: 20px; }
     .header.fancy .mega-menu .menu-links > li > a:hover {
       color: #84ba3f; }
@@ -6419,8 +6419,7 @@ section:nth-child(odd) .title-effect.dark::before {
   .header.fancy .mega-menu.desktopTopFixed > section.menu-list-items {
     border-bottom: 1px solid #f6f6f6; }
   .header.fancy .mega-menu.desktopTopFixed .menu-links > li > a {
-    color: #ffffff;
-    color: #323232; }
+    color: #ffffff; }
     .header.fancy .mega-menu.desktopTopFixed .menu-links > li > a:hover {
       color: #84ba3f; }
   .header.fancy .mega-menu.desktopTopFixed .menu-links > li.active > a {
@@ -6479,7 +6478,7 @@ section:nth-child(odd) .title-effect.dark::before {
         color: #84ba3f; }
 
 .header.text-dark .mega-menu .menu-links > li > a {
-  color: #323232; }
+  color: #ffffff; }
   .header.text-dark .mega-menu .menu-links > li > a:hover {
     color: #84ba3f; }
 
@@ -7110,14 +7109,16 @@ header.one-page.light {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
-  width: 140px; }
+  background-color: #323232;
+  width: 140px;
+  color: #ffffff; }
 
 .dropbtn {
-  width: 40px; }
+  width: 40px;
+  color: white; }
 
 .dropbtn::after {
-  background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+  background: rgba(255, 255, 255, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
   content: "";
   height: 16px;
   position: absolute;
@@ -7126,10 +7127,10 @@ header.one-page.light {
   width: 16px; }
 
 .dropdown-content a {
-  color: black;
   padding: 2px 0 2px 25px;
   text-decoration: none;
-  display: block; }
+  display: block;
+  color: #ffffff; }
 
 .dropdown-content a:hover {
   background-color: #f1f1f1; }
@@ -11629,7 +11630,7 @@ img.logo-small {
     background: url(../images/construction/bg/gradient-overlay1.png) repeat-y left 0; }
 
 .footer.black-bg {
-  background: #1a1a1a; }
+  background: #323232; }
   .footer.black-bg p {
     color: rgba(255, 255, 255, 0.5); }
   .footer.black-bg .social-icons li a {
@@ -11734,7 +11735,7 @@ img.logo-small {
 .addresss-info li {
   font-size: 14px;
   margin-bottom: 15px;
-  color: #323232;
+  color: #ffffff;
   list-style: none; }
   .addresss-info li a {
     color: #317CC0; }
@@ -11775,7 +11776,7 @@ img.logo-small {
   .footer-useful-link ul li:last-child {
     margin-bottom: 0; }
   .footer-useful-link ul li a {
-    color: black;
+    color: #ffffff;
     font-size: 14px;
     vertical-align: top;
     display: block;

@@ -2,7 +2,7 @@
       Header
 *************************/
 .default {
-  background: $white;
+  background: $black;
   z-index: 9999;
   position: absolute;
   width: 100%;
@@ -52,7 +52,7 @@
 
   a {
     text-align: right;
-    color: $black;
+    color: $white;
     line-height: 19px;
   }
 
@@ -605,7 +605,7 @@
     .menu-links {
       > li {
         > a {
-          color: $black;
+          color: $white;
 
           &:hover {
             color: $theme-color;
@@ -808,7 +808,7 @@
     .menu-links {
       > li {
         > a {
-          color: $black;
+          color: $white;
           line-height: $l-height-20;
 
           &:hover {
@@ -840,7 +840,6 @@
       > li {
         > a {
           color: $white;
-          color: $black;
 
           &:hover {
             color: $theme-color;
@@ -972,7 +971,7 @@
     .menu-links {
       > li {
         > a {
-          color: $black;
+          color: $white;
 
           &:hover {
             color: $theme-color;
@@ -2147,16 +2146,18 @@ header.one-page.light {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $white;
+  background-color: $black;
   width: 140px;
+  color: $white;
 }
 
 .dropbtn {
   width: 40px;
+  color: white;
 }
 
 .dropbtn::after {
-  background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+  background: rgba(255, 255, 255, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
   content: "";
   height: 16px;
   position: absolute;
@@ -2166,10 +2167,10 @@ header.one-page.light {
 }
 
 .dropdown-content a {
-  color: black;
   padding: 2px 0 2px 25px;
   text-decoration: none;
   display: block;
+  color: $white;
 }
 
 .dropdown-content a:hover {

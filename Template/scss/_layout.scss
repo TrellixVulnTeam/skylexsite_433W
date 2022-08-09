@@ -4035,7 +4035,7 @@ img.logo-small {
   }
 }
 .footer.black-bg {
-  background: #1a1a1a;
+  background: #323232;
   p {
     color: rgba(255,255,255,0.5);
   }
@@ -4190,7 +4190,7 @@ img.logo-small {
   li {
     font-size: $fs-14;
     margin-bottom: 15px;
-    color: $black;
+    color: $white;
     list-style: none;
     a {
       color: $blue;
@@ -4241,7 +4241,7 @@ img.logo-small {
         margin-bottom: 0;
       }
       a {
-        color: rgb(0, 0, 0);
+        color: $white;
         font-size: $fs-14;
         vertical-align: top;
         display: block;
